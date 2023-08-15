@@ -70,7 +70,7 @@ def print_colored(agent, text):
     color = agent_colors.get(agent, "")
     print(color + f"{agent}: {text}" + Style.RESET_ALL, end="")
 
-voice_id1 = 'Your Voice ID'
+voice_id1 = 'piTKgcLEGmPE4e6mEKli'
 
 def record_and_transcribe(duration=8, fs=44100):
     print('Recording...')
